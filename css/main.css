@@ -1,0 +1,601 @@
+:root {
+    --green-color : #06716A
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Tajawal", sans-serif ;
+    margin: 0;
+    direction: rtl;
+}
+
+.container {
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.navbar {
+    background-color: #bfe6e5;
+}
+
+.navbar .button {
+    background-color:var(--green-color);
+    color: white;
+    margin-right: 30px;
+    font-family: "Tajawal";
+}
+
+.navbar .button:hover {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar ul li a:first-child {
+    margin-top: 10px;
+}
+.navbar ul li a {
+    color: var(--green-color);
+    transition: .3s;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 5px;
+    font-family: "Tajawal";
+}
+
+.navbar ul li a:hover {
+    border-bottom: 1px solid var(--green-color);
+    color: var(--green-color);
+}
+
+.navbar button {
+    color: var(--green-color);
+    font-size: 25px;
+}
+
+.navbar button:focus {
+    box-shadow: none;
+}
+
+.phase {
+    background-color: #b5729e;
+    position: relative;
+    padding-bottom: 50px;
+}
+@media (max-width: 768px) {
+    .phase {
+        height: 1200px;
+    }
+}
+
+.phase img {
+    max-width: 100%;
+    height: 430px;
+    position: absolute;
+    width: 232px;
+    opacity: 0;
+}
+.phase img.active {
+    opacity: 1;
+    
+}
+
+.phase .imags {
+    position: relative;
+}
+.phase .text .data {
+    color: #3A3791;
+}
+
+.phase .text h2 {
+    font-style: normal; 
+    font-weight: 700;
+    line-height: 64px;
+    color: #FFFFFF;
+    font-family: "Tajawal";
+}
+
+.phase .text .data > div {
+    background-color: #eddce7;
+    border-radius: 16px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.phase .text .data > div.active {
+    background-color: white;
+}
+
+.phase .text .data > div h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    opacity: .85;
+    font-family: "Tajawal";
+}
+
+
+.phase .text .data > div p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.85;
+    font-family: "Tajawal";
+}
+.calendar {
+    width: 100%;
+    background-color: #cffaf8;
+}
+
+.calendar img {
+    width: 100%;
+}
+
+.calendar svg {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.calendar .text {
+    color: #3A3791;
+    width: 350px;
+    margin-top: 60px;
+}
+
+.calendar .text p {
+    line-height: 1.6;
+    font-size: 18px;
+        font-family: "Tajawal";
+}
+
+
+.calendar .text h3 {
+    font-weight: bold;
+        font-family: "Tajawal";
+}
+
+.feedback {
+    background-color: #fcf9ef;
+    position: relative;
+    padding-bottom: 50px;
+    height: 500px;
+}
+
+
+
+@media (max-width: 768px) {
+    .feedback {
+        height:  1000px;
+    }
+}
+
+
+/* @media (max-width: 992px) {
+    .feedback {
+        height: 500px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .feedback {
+        height:  500px;
+    }
+}  */
+.feedback h3 {
+    color: var(--green-color);
+    font-size: 40px;
+    font-family: "Tajawal";
+}
+
+.feedback .boxs {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.feedback .boxs .row {
+    position: absolute;
+    opacity: 0;
+}
+.feedback .boxs .row.active {
+    opacity: 1;
+}
+
+
+.feedback .boxs .box {
+    margin-left: 20px;
+    padding: 10px;
+    text-align: center;
+    color: var(--green-color);
+    background: #FFFCF5;
+    border: 1px solid #EDEAE5;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    margin-bottom: 30px;
+}
+
+.feedback .box h5 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Tajawal";
+}
+
+.feedback .box p {
+    font-weight: 500;
+    line-height: 26px;
+    width: 220px;
+    font-family: "Tajawal";
+}
+
+.feedback .box .stars {
+    color: #fff152;
+}
+.feedback .box .stars i {
+    margin-left: 3px;
+}
+
+.ballscont {
+    width: 100%;
+    background-color:#fcf9ef ;
+    height: 80px;
+}
+
+.balls{
+    display: flex;
+    justify-content: center;
+}
+
+.balls span {
+    width: 10px;
+    height: 10px;
+    background-color: #06716a6e;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 3px 5px;
+    cursor: pointer;
+}
+
+.balls span.active {
+    background-color: var(--green-color);
+}
+
+.form {
+    background-color: #3b3791;
+}
+
+.form .text {
+    color: white;
+    margin-top: 100px;
+    font-family: "Tajawal";
+}
+
+.form .logos div {
+    background-color: #4f4b9c;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.form .logos div i {
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    font-size: 20px;
+}
+
+.form .data {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+input {
+    display: block ;
+    background-color: #f8f3fb;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px 10px;
+    position: relative;
+}
+
+label {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #3b3791;
+    font-weight: 500;
+    font-family: "Tajawal";
+}
+
+input::placeholder {
+    color: rgba(58, 55, 145, 0.4);
+    opacity: 0.85;
+    margin-left: 5px;
+    font-family: "Tajawal";
+}
+
+
+.form .data .phone {
+    position: relative;
+}
+/* .form .data .phone input::placeholder {
+    margin-left: 50px;
+
+} */
+/* .form .data .phone input:user-valid {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+} */
+
+.form .data .phone::after {
+    content: '';
+    position: absolute;
+    background-color: #0000001a;
+    width: 1px;
+    height: 50px;
+    top: 34px;
+    right: 58px;
+}
+/* C {
+    height: 50px;
+    border-left: 1px solid #0000001a;
+    display: flex;
+    align-items: center;
+    background-color: #f8f3fb;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.form .data .phone .span img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.form .data .phone .span span {
+        margin-left: 5px;
+} 
+
+.form .data .phone .span i {
+    color: var(--green-color);
+    margin-left: 5px;
+} */
+
+.form .data .phone .span  {
+    position: relative;
+}
+.form .data .phone .icon i {
+    position: absolute;
+    right:35px;
+    top: 52px;
+    margin-left: 5px;
+    color: var(--green-color);
+}
+
+.form .data .phone input:valid {
+    padding-right: 64px;
+}
+/* .form .data .phone select{
+    height: 50px;
+    border: none;
+    background-color: #f8f3fb;
+    text-align: right;
+    border-left: 1px solid #0000001a;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+    padding-right: 5px;
+    outline: none;
+    appearance: none;
+    padding-left: 20px;
+}  */
+
+/* .form .data .phone select option {
+    background-color:#f8f3fb ;
+} */
+
+/* .form .data .phone input {
+    flex: 1;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+} */
+
+.form .data .reason {
+    position: relative;
+}
+
+.form .data .reason select {
+    width: 100%;
+    display: block;
+    background-color: #f8f3fb;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: right;
+    cursor: pointer;
+    padding-right: 10px;
+    appearance: none;
+}
+
+.form .data .reason select option {
+    background-color: #f8f3fb;
+}
+
+.form .data .reason .icon i {
+    position: absolute;
+    left: 0;
+    top: 62px;
+    margin-left: 5px;
+    color: var(--green-color);
+}
+
+/* .form .data .reason input::placeholder {
+    color: black;
+    font-size: 18px;
+} */
+
+/* .form .data .reason i {
+    position: absolute;
+    left: 15px;
+    top: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--green-color);
+} */
+
+.form .data .message textarea {
+    height: 150px;
+    width: 100%;
+    display: block;
+    background-color: #f8f3fb;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+}
+
+.form .data .message textarea::placeholder {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    text-align: right;
+    margin-right: 5px;
+    color: rgba(58, 55, 145, 0.4);
+    opacity: 0.85;
+    font-family: "Tajawal";
+}
+
+
+.form .data .message textarea:user-valid, 
+input:user-valid {
+    color:black;
+}
+
+
+.form .data .submit input {
+background-color: #3A3791;
+    color: white;
+    width: 110px;
+    display: inline-block;
+    height: 40px;
+    text-align: center;
+}
+
+.form .data .submit input:hover {
+    font-weight: bold;
+}
+
+footer {
+    background-color: white;
+    font-family: "Tajawal";
+}
+
+footer .box1 h5 {
+    color: var(--green-color);
+}
+
+footer .box1 > div {
+    margin-bottom: 20px;
+}
+
+footer  .info {
+    margin-top: 75px;
+}
+
+footer .box2 > div {
+    margin-bottom: 15px;
+}
+footer .box2 > div a {
+    color: black;
+    padding-bottom: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: "Tajawal";
+}
+footer .box2 > div a:hover {
+    color: var(--green-color);
+}
+
+footer .box2 h5 {
+    color: var(--green-color);
+    font-family: "Tajawal";
+}
+
+footer .tahara span {
+    color: var(--green-color);
+    font-weight: 500;
+}
+
+footer .box3 .get {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--green-color);
+}
+
+footer .box3 a {
+    background-color: var(--green-color);
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    width: 125px;
+    text-align: center;
+    font-size: 15px;
+}
+footer .box3 a i {
+    margin-right: 5px;
+}
+
+footer .logos {
+    margin-top: 75px;
+}
+
+footer .logos div {
+    background-color: #e6eee8;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+}
+
+footer .logos div i {
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    font-size: 20px;
+    color: var(--green-color);
+}
+
+i{
+    cursor: pointer;
+}
+i:hover{
+    font-weight: bold;
+}
+
+
+
