@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="build/css/intlTelInput.css">
+    <title>inovola task</title>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="logo">
+                    <svg width="148" height="35" viewBox="0 0 148 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30.209 7.44468V5.79688H48.4285V7.44468H40.1958V34.5607H38.3782V7.44468H30.209Z" fill="#209BA8"/>
+                    <path d="M65.8909 34.5629V25.8486C65.8909 22.9277 65.1581 20.6072 63.6925 18.887C62.2268 17.1668 60.2662 16.3067 57.8105 16.3067C56.7284 16.2798 55.6528 16.4821 54.6535 16.9007C53.6541 17.3193 52.7534 17.9447 52.0098 18.7362C50.4596 20.3577 49.6828 22.3861 49.6794 24.8216C49.6794 27.2844 50.4461 29.3197 51.9794 30.9275C53.5127 32.5353 55.4589 33.3383 57.8181 33.3366C59.0707 33.3482 60.3092 33.0703 61.4382 32.5242C62.6325 31.925 63.6999 31.0982 64.581 30.0895V32.3045C63.6606 33.1555 62.5904 33.8261 61.4255 34.2819C60.2741 34.724 59.0505 34.9449 57.8181 34.9333C56.4636 34.9466 55.1196 34.6913 53.863 34.1822C52.6573 33.6888 51.5721 32.9384 50.6822 31.9826C49.7901 31.0394 49.0891 29.9305 48.6183 28.7176C48.1411 27.4973 47.8982 26.1969 47.9024 24.8855C47.9024 21.9603 48.8366 19.5487 50.6948 17.653C52.5531 15.7574 54.9038 14.7994 57.742 14.7994C59.4416 14.7814 61.1165 15.2102 62.6009 16.0435C64.1009 16.9038 65.3582 18.1348 66.2539 19.6202C66.7455 20.4548 67.0939 21.3669 67.2846 22.318C67.511 23.5203 67.6173 24.7425 67.6019 25.9662V34.5629H65.8909Z" fill="#209BA8"/>
+                    <path d="M72.7012 34.5632V5.79932H74.3589V18.596C75.0611 17.4185 76.0468 16.438 77.225 15.7449C78.3904 15.0707 79.714 14.7232 81.0582 14.7384C83.3785 14.7384 85.2342 15.5048 86.6 17.0581C87.9657 18.6114 88.6613 20.7139 88.6613 23.376V34.5632H86.996V23.0541C86.996 21.0741 86.4451 19.457 85.3231 18.2C84.7911 17.5941 84.1334 17.113 83.3965 16.7908C82.6596 16.4686 81.8614 16.313 81.0582 16.3351C80.1458 16.3117 79.2397 16.4949 78.4071 16.8712C77.5744 17.2475 76.8364 17.8073 76.2476 18.5092C74.9884 19.9415 74.3589 21.775 74.3589 24.0095V34.576L72.7012 34.5632Z" fill="#209BA8"/>
+                    <path d="M110.37 34.5632V25.8489C110.37 22.928 109.636 20.6074 108.167 18.8872C106.697 17.1679 104.745 16.3069 102.285 16.3069C101.204 16.2797 100.129 16.4819 99.1311 16.9005C98.133 17.3191 97.2337 17.9447 96.4918 18.7365C94.9365 20.3579 94.1597 22.3864 94.1614 24.8219C94.1614 27.2847 94.923 29.32 96.4461 30.9277C97.9845 32.5321 99.9189 33.3369 102.285 33.3369C103.541 33.3471 104.782 33.0692 105.915 32.5245C107.107 31.9262 108.171 31.0992 109.048 30.0898V32.3048C107.212 34.0209 104.791 34.962 102.285 34.9336C100.931 34.9466 99.5881 34.6914 98.3323 34.1825C97.1266 33.6891 96.0414 32.9387 95.1515 31.9829C94.2578 31.0405 93.5558 29.9313 93.0851 28.7179C92.6091 27.4972 92.3662 26.1971 92.3692 24.8858C92.3692 21.9597 93.3 19.5489 95.1616 17.6533C97.0233 15.7577 99.3681 14.8064 102.196 14.7996C103.899 14.7813 105.577 15.2101 107.065 16.0438C108.566 16.9005 109.821 18.1324 110.711 19.6204C111.206 20.453 111.555 21.3658 111.741 22.3182C111.976 23.5264 112.084 24.756 112.064 25.9869V34.5836L110.37 34.5632Z" fill="#209BA8"/>
+                    <path d="M117.172 34.5629V15.1469H118.835V18.9432C119.541 17.7422 120.54 16.7431 121.739 16.041C122.95 15.3784 124.311 15.0431 125.689 15.0677C125.826 15.0677 125.976 15.0677 126.151 15.0855C126.326 15.1034 126.56 15.1264 126.836 15.1724V16.7947H126.725C126.085 16.741 125.658 16.7104 125.455 16.7104C124.557 16.6886 123.665 16.8691 122.844 17.2386C122.024 17.6081 121.296 18.1573 120.713 18.8461C119.472 20.2615 118.845 22.0779 118.845 24.2903V34.5706L117.172 34.5629Z" fill="#209BA8"/>
+                    <path d="M146.014 34.5633V25.849C146.014 22.9281 145.281 20.6075 143.813 18.8874C142.346 17.1672 140.382 16.3071 137.921 16.3071C136.84 16.2804 135.766 16.483 134.768 16.9016C133.77 17.3201 132.87 17.9454 132.128 18.7366C130.573 20.358 129.794 22.3865 129.793 24.822C129.793 27.2848 130.561 29.3201 132.098 30.9279C133.634 32.5357 135.576 33.3353 137.921 33.3268C139.177 33.339 140.419 33.061 141.552 32.5144C142.745 31.917 143.811 31.0898 144.689 30.0797V32.3049C142.852 34.0217 140.428 34.9596 137.921 34.9235C136.568 34.936 135.225 34.6808 133.969 34.1724C132.764 33.6765 131.68 32.9264 130.788 31.9728C129.898 31.0282 129.198 29.9195 128.727 28.7078C128.251 27.4871 128.01 26.1868 128.016 24.8757C128.016 21.9496 128.947 19.5388 130.808 17.6432C132.67 15.7476 135.015 14.793 137.845 14.7793C139.546 14.7616 141.223 15.1905 142.709 16.0235C144.209 16.8822 145.465 18.1136 146.357 19.6001C146.852 20.4339 147.203 21.3461 147.395 22.2979C147.623 23.507 147.729 24.7361 147.713 25.9666V34.5633H146.014Z" fill="#209BA8"/>
+                    <path d="M9.56892 2.60059C9.56892 2.60059 2.24762 6.73161 4.15918 19.1809C4.15918 19.1809 5.9108 28.5031 15.032 33.0864C15.032 33.0864 0.671142 29.8393 0.054264 16.2787C0.054264 16.2787 -1.30387 6.28453 9.56892 2.60059Z" fill="#209BA8"/>
+                    <path d="M17.0452 2.68488C15.7886 2.12794 14.1614 1.86736 12.0543 2.17393C11.1672 2.08252 10.2727 2.25015 9.47766 2.65678C8.96994 2.98123 6.35774 4.78488 4.88281 8.88013C5.36515 8.44072 12.364 2.4294 21.2085 8.51481C20.2492 6.29671 18.8297 4.3107 17.0452 2.68999" fill="#06716A"/>
+                    <path d="M16.9465 2.60034C16.9465 2.60034 25.6158 9.5748 21.2773 20.969C21.2773 20.969 19.8176 25.9354 13.7402 29.4533C13.7402 29.4533 24.0952 28.3879 26.1793 16.7792C26.1793 16.7792 28.0985 6.34304 16.9465 2.60034Z" fill="#209BA8"/>
+                    </svg>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                        <path fill="currentColor"
+                            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z">
+                        <!-- </path><i class="fa-solid fa-bars"></i> Font Awesome fontawesome.com -->
+                    </i>
+                </button>
+                <div class="navbar-collapse collapse justify-content-between" id="main" >
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " href="#phasee">عن طهارة</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#calendare">استشارات طبية</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#feedbacke">مقالات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#forme">تواصلي معنا</a>
+                        </li>
+                    </ul>
+                    <a class="button btn main-btn" href="" id="btn">حملى التطبيق الان</a>
+                </div>
+            </div>
+        </nav>
+        <div class="phase" id="phasee">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <div class="text">
+                            <h2 class="text-center text-md-end">تعرفى على تفاصيل دورتك بالتفصيل</h2>
+                            <div class="data">
+                                <div data-color="8BDED8" data-img=".one" data-col="e2f7f5">
+                                    <h5>مرحلة ما قبل الاباضة</h5>
+                                    <p>تتبع هذه المرحلة يشجعك على القيام بفعاليات مختلفة مثل الرياضة</p>
+                                </div>
+                                <div data-color="5b56d5d9" data-img=".two" data-col="dadbf6" >
+                                    <h5 >مرحلة الاباضة</h5>
+                                    <p>تتبع هذه المرحلة مهم عند التخطيط للحمل</p>
+                                </div>
+                                <div class="active" data-color="b5729e" data-img=".three" data-col="eddce7">
+                                    <h5>مرحلة الدورة / الحيض</h5>
+                                    <p>تتبع هذه المرحلة يساعدك على تخطيط شهرك لتكوني مستعدة</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="imags">
+                            <div class="image  d-flex justify-content-center">
+                                <img src="photos/01.png" alt="" class="three active">
+                            </div>
+                            <div class="image  d-flex justify-content-center">
+                                <img src="photos/012.png" alt="" class="two">
+                            </div>
+                            <div class="image  d-flex justify-content-center">
+                                <img src="photos/0123.png" alt="" class="one">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="calendar" id="calendare">
+            <div class="boxd">
+                <div class="row ">
+                    <div class="col-md-6 col-12 position-relative">
+                        <svg class=" ms-md-0" width="113" height="118" viewBox="0 0 113 118" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20.5461 0.000732422V5.13094H0V118H113.001V5.13094H92.4553V0.000732422H82.1823V5.13094H30.8184V0.000732422H20.5461ZM10.2731 15.3914H20.5461V20.5216H30.8192V15.3914H82.1823V20.5216H92.4553V15.3914H102.728V25.6525H10.2731V15.3914ZM10.2731 35.913H102.728V107.74H10.2731V35.913ZM78.4905 47.6169L51.3638 74.7121L39.6471 63.0082L32.2629 70.3824L47.6721 85.7745L51.3638 89.3022L55.0556 85.7745L85.874 54.9918L78.4905 47.6169Z"
+                                fill="#45C2B9" fill-opacity="0.2" />
+                        </svg>
+                        <div class="text  text-md-end  text-center ">
+                            <h3>التقويم</h3>
+                            <p>شاهدي جميع بياناتك المدخلة في طريقة واضحة
+                                من خلال تقارير التحليل المتكررة والتقويم, ستتمكني من
+                                استخلاص النتائج بسرعة</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="image">
+                            <img src="photos/02.png" alt="">
+                        </div>
+                    </div>
+            </div>
+
+            </div>
+        </div>
+        <div class="feedback" id="feedbacke">
+            <div class="container">
+                <h3 class="text-center">شهادات</h3>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-4 col-12">
+                                    <div class="box">
+                                        <h5 class="mb-3">بتول محمد</h5>
+                                        <div class="d-flex justify-content-center">
+                                            <p>طهارة أكثر من مجرد تطبيق بالنسبة لي, يغطي جميع
+                                                جوانب صحة المرأة واستطيع معرفة الاجابات على أسئلتي من مصدر موثوق</p>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <div class="box">
+                                        <h5 class="mb-3">بتول محمد</h5>
+                                        <div class="d-flex justify-content-center">
+                                            <p>طهارة أكثر من مجرد تطبيق بالنسبة لي, يغطي جميع
+                                                جوانب صحة المرأة واستطيع معرفة الاجابات على أسئلتي من مصدر موثوق</p>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <div class="box">
+                                        <h5 class="mb-3">بتول محمد</h5>
+                                        <div class="d-flex justify-content-center">
+                                            <p>طهارة أكثر من مجرد تطبيق بالنسبة لي, يغطي جميع
+                                                جوانب صحة المرأة واستطيع معرفة الاجابات على أسئلتي من مصدر موثوق</p>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-4 col-12">
+                                    <div class="box">
+                                        <h5 class="mb-3"> مريم محمد</h5>
+                                        <div class="d-flex justify-content-center">
+                                            <p>طهارة أكثر من مجرد تطبيق بالنسبة لي, يغطي جميع
+                                                جوانب صحة المرأة واستطيع معرفة الاجابات على أسئلتي من مصدر موثوق</p>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <div class="box">
+                                        <h5 class="mb-3">مريم محمد</h5>
+                                        <div class="d-flex justify-content-center">
+                                            <p>طهارة أكثر من مجرد تطبيق بالنسبة لي, يغطي جميع
+                                                جوانب صحة المرأة واستطيع معرفة الاجابات على أسئلتي من مصدر موثوق</p>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <div class="box">
+                                        <h5 class="mb-3">مريم محمد</h5>
+                                        <div class="d-flex justify-content-center">
+                                            <p>طهارة أكثر من مجرد تطبيق بالنسبة لي, يغطي جميع
+                                                جوانب صحة المرأة واستطيع معرفة الاجابات على أسئلتي من مصدر موثوق</p>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-4 col-12">
+                                    <div class="box">
+                                        <h5 class="mb-3">نور محمد</h5>
+                                        <div class="d-flex justify-content-center">
+                                            <p>طهارة أكثر من مجرد تطبيق بالنسبة لي, يغطي جميع
+                                                جوانب صحة المرأة واستطيع معرفة الاجابات على أسئلتي من مصدر موثوق</p>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <div class="box">
+                                        <h5 class="mb-3">نور محمد</h5>
+                                        <div class="d-flex justify-content-center">
+                                            <p>طهارة أكثر من مجرد تطبيق بالنسبة لي, يغطي جميع
+                                                جوانب صحة المرأة واستطيع معرفة الاجابات على أسئلتي من مصدر موثوق</p>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <div class="box">
+                                        <h5 class="mb-3">نور محمد</h5>
+                                        <div class="d-flex justify-content-center">
+                                            <p>طهارة أكثر من مجرد تطبيق بالنسبة لي, يغطي جميع
+                                                جوانب صحة المرأة واستطيع معرفة الاجابات على أسئلتي من مصدر موثوق</p>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-12" id="forme">
+                        <div class="text text-md-end text-center">
+                            <h4> نحب ان نسمع منك</h4>
+                            <p>اذا كان لديك اى استفسارات تواصلى معنا</p>
+                            <div class="email">
+                                <div class="mb-1"> البريد الالكترونى :</div>
+                                <div>tahara@tahara.com.sa</div>
+                            </div>
+                            <div class="phone">
+                                <div class="mb-1"> رقم الهاتف :</div>
+                                <div>56658544455</div>
+                            </div>
+                            <div class="web">
+                                <div class="mb-1">موقعنا :</div>
+                                <div>http//tahara.com.sa/</div>
+                            </div>
+                            <div class="logos d-flex justify-content-md-start justify-content-center">
+                                <div><i class="fa-brands fa-instagram"></i></div>
+                                <div><i class="fa-brands fa-twitter"></i></div>
+                                <div><i class="fa-brands fa-facebook"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="all col-md-8 col-12">
+                        <div class="data">
+                            <form action="">
+                                <div class="d-flex justify-content-between name">
+                                    <div class="row" style="width: 111%;">
+                                        <div class="col-md-6 col-12 justify-content-end">
+                                            <label>الاسم</label>
+                                            <input type="text" placeholder="اسم المستخدم" required>
+                                        </div>
+                                        <div class="col-md-6 col-12 ">
+                                            <label>البريد الالكترونى</label>
+                                            <input type="email" placeholder="example@gmail.com" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="phone">
+                                    <label class="d-block">رقم التلفون</label>
+                                    <div class="box d-flex justify-content-end">
+                                        <input type="text" id="phone" maxlength="12" placeholder="985566889899" pattern="\d{0,12}"
+                                            title="Please enter a valid number" required>
+                                        <div class="icon">
+                                            <i class="fa-solid fa-angle-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="reason position-relative">
+                                    <label>السبب</label>
+                                    <select name="" id="">
+                                        <ul>
+                                            <option value="">
+                                                <li>الاقتراح</li>
+                                            </option>
+                                            <li>
+                                                <option value="الاقتراح الاول ">الاقتراح الاول</option>
+                                            </li>
+                                            <li>
+                                                <option value="الاقتراح الثاني ">الاقتراح الثانى</option>
+                                            </li>
+                                            <li>
+                                                <option value="الاقتراح الثالث ">الاقتراح الثالث</option>
+                                            </li>
+                                            <li>
+                                                <option value="الاقتراح الرابع ">الاقتراح الرابع</option>
+                                            </li>
+                                        </ul>
+                                    </select>
+                                    <div class="icon">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <label>الموضوع</label>
+                                    <input type="text" placeholder="عنوان الموضوع">
+                                </div>
+                                <div class="message">
+                                    <label>الرسالة</label>
+                                    <textarea name="" id="" placeholder="اكتب رسالتك..."></textarea>
+                                </div>
+                                <div class="submit">
+                                    <input type="submit" value="ارسال">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row text-center text-md-end">
+                    <div class="col-md-4 col-12">
+                        <div class="box3">
+                            <div class="logo">
+                                <svg width="148" height="35" viewBox="0 0 148 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M30.2092 7.44452V5.79671H48.4287V7.44452H40.1961V34.5606H38.3784V7.44452H30.2092Z" fill="#209BA8"/>
+                                <path d="M65.8916 34.5631V25.8489C65.8916 22.9279 65.1588 20.6074 63.6932 18.8872C62.2276 17.167 60.2669 16.3069 57.8113 16.3069C56.7292 16.28 55.6535 16.4824 54.6542 16.9009C53.6549 17.3195 52.7542 17.9449 52.0106 18.7365C50.4603 20.3579 49.6835 22.3864 49.6801 24.8219C49.6801 27.2846 50.4468 29.3199 51.9801 30.9277C53.5134 32.5355 55.4597 33.3385 57.8189 33.3368C59.0714 33.3485 60.3099 33.0705 61.4389 32.5244C62.6332 31.9253 63.7006 31.0984 64.5817 30.0898V32.3047C63.6613 33.1557 62.5912 33.8263 61.4262 34.2821C60.2748 34.7242 59.0512 34.9452 57.8189 34.9335C56.4643 34.9468 55.1204 34.6916 53.8637 34.1824C52.658 33.6891 51.5728 32.9386 50.6829 31.9828C49.7909 31.0396 49.0899 29.9307 48.619 28.7179C48.1419 27.4975 47.8989 26.1972 47.9031 24.8857C47.9031 21.9606 48.8373 19.5489 50.6956 17.6533C52.5538 15.7576 54.9046 14.7996 57.7427 14.7996C59.4423 14.7816 61.1172 15.2105 62.6016 16.0438C64.1016 16.9041 65.3589 18.135 66.2546 19.6204C66.7462 20.4551 67.0946 21.3671 67.2853 22.3182C67.5117 23.5206 67.618 24.7427 67.6026 25.9664V34.5631H65.8916Z" fill="#209BA8"/>
+                                <path d="M72.7004 34.5632V5.79932H74.3581V18.596C75.0604 17.4185 76.0461 16.438 77.2242 15.7449C78.3896 15.0707 79.7133 14.7232 81.0575 14.7384C83.3778 14.7384 85.2335 15.5048 86.5992 17.0581C87.965 18.6114 88.6606 20.7139 88.6606 23.376V34.5632H86.9953V23.0541C86.9953 21.0741 86.4444 19.457 85.3223 18.2C84.7903 17.5941 84.1327 17.113 83.3958 16.7908C82.6589 16.4686 81.8607 16.313 81.0575 16.3351C80.145 16.3117 79.239 16.4949 78.4063 16.8712C77.5737 17.2475 76.8357 17.8073 76.2469 18.5092C74.9877 19.9415 74.3581 21.775 74.3581 24.0095V34.576L72.7004 34.5632Z" fill="#209BA8"/>
+                                <path d="M110.37 34.5631V25.8489C110.37 22.928 109.636 20.6074 108.167 18.8872C106.697 17.1679 104.745 16.3069 102.285 16.3069C101.204 16.2796 100.129 16.4819 99.1311 16.9005C98.133 17.3191 97.2337 17.9447 96.4918 18.7365C94.9365 20.3579 94.1597 22.3864 94.1614 24.8219C94.1614 27.2847 94.923 29.3199 96.4461 30.9277C97.9845 32.5321 99.9189 33.3368 102.285 33.3368C103.541 33.3471 104.782 33.0692 105.915 32.5244C107.107 31.9262 108.171 31.0992 109.048 30.0898V32.3047C107.212 34.0209 104.791 34.9619 102.285 34.9336C100.931 34.9466 99.5881 34.6914 98.3323 34.1825C97.1266 33.6891 96.0414 32.9387 95.1515 31.9828C94.2578 31.0404 93.5558 29.9313 93.0851 28.7179C92.6091 27.4972 92.3662 26.1971 92.3692 24.8858C92.3692 21.9597 93.3 19.5489 95.1616 17.6533C97.0233 15.7577 99.3681 14.8064 102.196 14.7996C103.899 14.7813 105.577 15.2101 107.065 16.0438C108.566 16.9004 109.821 18.1324 110.711 19.6204C111.206 20.453 111.555 21.3658 111.741 22.3182C111.976 23.5264 112.084 24.756 112.064 25.9869V34.5836L110.37 34.5631Z" fill="#209BA8"/>
+                                <path d="M117.172 34.5632V15.1471H118.834V18.9434C119.54 17.7425 120.54 16.7434 121.738 16.0413C122.949 15.3787 124.31 15.0433 125.688 15.0679C125.826 15.0679 125.975 15.0679 126.151 15.0858C126.326 15.1036 126.559 15.1266 126.836 15.1726V16.7949H126.724C126.085 16.7412 125.658 16.7106 125.455 16.7106C124.556 16.6889 123.664 16.8693 122.844 17.2388C122.023 17.6083 121.295 18.1575 120.713 18.8464C119.471 20.2617 118.844 22.0781 118.844 24.2905V34.5708L117.172 34.5632Z" fill="#209BA8"/>
+                                <path d="M146.015 34.5632V25.8489C146.015 22.928 145.281 20.6075 143.814 18.8873C142.346 17.1671 140.382 16.307 137.922 16.307C136.841 16.2803 135.766 16.4829 134.768 16.9015C133.77 17.32 132.871 17.9453 132.129 18.7365C130.573 20.358 129.795 22.3864 129.793 24.8219C129.793 27.2847 130.561 29.32 132.098 30.9278C133.635 32.5356 135.576 33.3352 137.922 33.3267C139.178 33.3389 140.419 33.061 141.552 32.5143C142.746 31.9169 143.812 31.0897 144.69 30.0796V32.3048C142.853 34.0216 140.428 34.9595 137.922 34.9234C136.568 34.9359 135.225 34.6807 133.969 34.1723C132.765 33.6764 131.68 32.9263 130.788 31.9727C129.899 31.0281 129.199 29.9194 128.727 28.7077C128.251 27.487 128.01 26.1867 128.016 24.8756C128.016 21.9495 128.947 19.5387 130.809 17.6431C132.67 15.7475 135.016 14.7929 137.846 14.7792C139.547 14.7616 141.223 15.1904 142.709 16.0234C144.209 16.8821 145.465 18.1135 146.357 19.6C146.853 20.4338 147.204 21.346 147.396 22.2979C147.623 23.5069 147.73 24.736 147.713 25.9665V34.5632H146.015Z" fill="#209BA8"/>
+                                <path d="M9.56892 2.60065C9.56892 2.60065 2.24762 6.73168 4.15918 19.1809C4.15918 19.1809 5.9108 28.5032 15.032 33.0864C15.032 33.0864 0.671142 29.8393 0.054264 16.2788C0.054264 16.2788 -1.30387 6.28459 9.56892 2.60065Z" fill="#209BA8"/>
+                                <path d="M17.0452 2.68497C15.7886 2.12803 14.1614 1.86745 12.0543 2.17402C11.1672 2.08261 10.2727 2.25024 9.47766 2.65687C8.96994 2.98132 6.35774 4.78497 4.88281 8.88023C5.36515 8.44081 12.364 2.4295 21.2085 8.5149C20.2492 6.2968 18.8297 4.31079 17.0452 2.69008" fill="#06716A"/>
+                                <path d="M16.9459 2.60065C16.9459 2.60065 25.6152 9.57511 21.2767 20.9693C21.2767 20.9693 19.817 25.9357 13.7396 29.4536C13.7396 29.4536 24.0945 28.3882 26.1787 16.7795C26.1787 16.7795 28.0979 6.34335 16.9459 2.60065Z" fill="#209BA8"/>
+                                </svg>
+                            </div>
+                            <div class="get">احصلي على التطبيق</div>
+                            <div class="d-flex justify-content-md-start justify-content-center apps">
+                                <a href="">Google play <i class="fa-brands fa-google-play"></i></a>
+                                <a href="" >App store <i class="fa-brands fa-apple"></i></a>
+                            </div>
+                            <div class="logos d-flex  justify-content-md-start justify-content-center">
+                                <div><i class="fa-brands fa-facebook"></i></div>
+                                <div><i class="fa-brands fa-twitter"></i></div>
+                                <div><i class="fa-brands fa-instagram"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 ">
+                        <div class="box2">
+                            <h5>روابط سريعة</h5>
+                            <div><a class="nav-link " href="#phasee">عن طهارة</a> </div>
+                            <div><a class="nav-link " href="#calendare">استشارات طبية</a> </div>
+                            <div><a class="nav-link " href="#feedbacke">مقالات</a></div>
+                            <div> <a class="nav-link" href="#forme">تواصلي معنا</a></div>
+                        </div>
+                        <div class="tahara"> جميع الحقوق محفوظة <span>Tahara</span>  <div class="d-inline"> 2022 &copy;</div> </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="box1">
+                            <h5>معلومات التواصل</h5>
+                            <div class="text-end"> البريد الالكترونى : tahartaharaa.com.sa </div>
+                            <div class="text-end">رقم الهاتف : 56658544455</div>
+                            <div class="text-end">  موقعنا : http//tahara.com.sa/ </div>
+                        </div>
+                        <div class="d-flex justify-content-center info">
+                            <div>سياسة الخصوصية</div>
+                            <div>الأحكام والشروط</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/main.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js.map"></script>
+        <script src="build/js/intlTelInput.js"></script>
+        <script>
+            let input = document.querySelector("#phone");
+            window.intlTelInput(input , {});
+        </script>
+</body>
+</html>
+
